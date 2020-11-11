@@ -1,0 +1,11 @@
+<app-post-form (submitEvent)="onSubmit($event)"></app-post-form>
+<div class="main-content">
+  <button class="new-thought">New Thought</button>
+  <ol class="ordered-list">
+    <app-post
+      *ngFor="let post of posts; index as i"
+      [post]="post"
+      (deletePost)="deletePost(i)"
+    ></app-post>
+  </ol>
+</div>

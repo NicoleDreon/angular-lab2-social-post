@@ -1,0 +1,36 @@
+/* .hide {
+  display: none;
+} */
+
+/* .new-thought {
+  width: 100%;
+  margin-bottom: 10px;
+  background-color: white;
+  border: 1px grey solid;
+  border-radius: 3px;
+  padding: 7px;
+} */
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  background-color: #b1ddea;
+  padding: 25px;
+  border-radius: 3px;
+  margin: 0 auto;
+}
+
+#title {
+  padding: 5px;
+}
+#thought {
+  height: 100px;
+}
+.button {
+  margin-top: 10px;
+  background-color: white;
+  border: 1px grey solid;
+  border-radius: 3px;
+  padding: 7px;
+}

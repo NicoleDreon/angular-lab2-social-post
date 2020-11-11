@@ -1,0 +1,21 @@
+.new-thought {
+  width: 100%;
+  margin-bottom: 10px;
+  background-color: white;
+  border: 1px black solid;
+  border-radius: 3px;
+  padding: 7px;
+}
+
+.ordered-list {
+  list-style: none;
+  border: 1px solid black;
+  border-radius: 3px;
+  background-color: white;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.main-content {
+  width: 75%;
+  margin: 0 auto;
+}

@@ -1,0 +1,16 @@
+.post-title {
+  font-size: 24px;
+}
+
+.list-item {
+  border-bottom: #f3f1f7 solid 1px;
+  margin: 5px;
+  padding: 10px;
+  position: relative;
+}
+
+.remove-post {
+  position: absolute;
+  right: 0;
+  top: 15px;
+}
